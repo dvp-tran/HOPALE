@@ -9,12 +9,11 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, date, timedelta
 from dateutil.relativedelta import *
-from sklearn.decomposition import PCA
 
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn import preprocessing
-from sklearn.metrics import roc_curve, auc
+from sklearn.metrics import r2_score
 
 ##------------------------------------------------------------##
 #load data
